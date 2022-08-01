@@ -3,6 +3,8 @@ Express Js Command
 
 npm init    // To intiate a file 
 
+npm install express    // To install the express module 
+
 
 Inside the js file     // Basic code to start the express Server
 
@@ -23,4 +25,16 @@ Inside the js file     // Basic code to start the express Server
 
 
 node file.js     // To start the server 
+
+// After Installing Nodemon 
+
+nodemon file.js         // To Start the server and not restart again and again 
+
+
+
+// To give the html file in app.get("/") 
+
+res.sendFile(__dirname+"/index.html");
+
+
 

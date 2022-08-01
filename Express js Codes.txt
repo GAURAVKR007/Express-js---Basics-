@@ -36,5 +36,13 @@ nodemon file.js         // To Start the server and not restart again and again
 
 res.sendFile(__dirname+"/index.html");
 
+// Body - parser 
 
+npm install body-parser
+
+// To give result of something 
+
+app.post("/", function(req, res){
+  res.send("HI You are here");
+})
 

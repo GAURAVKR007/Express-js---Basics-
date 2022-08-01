@@ -1,0 +1,26 @@
+Express Js Command  
+
+
+npm init    // To intiate a file 
+
+
+Inside the js file     // Basic code to start the express Server
+
+-> const express = require("express");              // To require the express module 
+-> const app = express();
+
+-> app.get("/",function(req,res){
+  response.send("<h1> Hello World </h1>");
+  // console.log(request);
+})
+
+-> app.listen(3000,function(){                          // To start the server and console log the string 
+      console.log("Server has Started at localHost 3000");
+   }
+
+
+// After All that then Type in CMD 
+
+
+node file.js     // To start the server 
+
